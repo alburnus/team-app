@@ -1,0 +1,9 @@
+server:
+  port: 443
+  ssl:
+    enabled: true
+    key-alias: team
+    key-store: "team-keystore.p12"
+    key-store-type: PKCS12
+    key-store-password: haslo1234
+    key-password: haslo1234
