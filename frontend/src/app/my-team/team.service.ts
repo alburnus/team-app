@@ -5,7 +5,7 @@ import {Observable} from 'rxjs/Observable';
 @Injectable()
 export class TeamService {
 
-  private apiUrl = 'http://localhost:8080/api/team';
+  private apiUrl = 'https://localhost/api/team';
 
   constructor(private http: HttpClient) {
   }

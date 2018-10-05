@@ -2,18 +2,7 @@
   {{message}}
 </div>
 <div>
-  <form>
-    <div class="form-group">
-      <label for="teamName">Team name:</label>
-      <input [(ngModel)]="team.name" id="teamName" name="teamName" class="form-control">
-    </div>
-    <button type="button" (click)="create()" class="btn btn-success">Add</button>
-  </form>
-</div>
-<hr>
-<!-- Material style -->
-<div>
-  <h4>Add new team using material style</h4>
+  <h4>Add new team</h4>
   <form>
     <mat-form-field>
       <input matInput placeholder="Team name" id="teamNameMaterial" name="teamName"[(ngModel)]="team.name">

@@ -1,19 +1,5 @@
-<table class="table table-dark">
-  <thead>
-  <tr>
-    <th>Team name</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let team of teams">
-    <td>{{team.name}}</td>
-  </tr>
-  </tbody>
-</table>
-<hr>
-
 <div>
-  <h4>Teams by angular material</h4>
+  <h4>Teams</h4>
   <mat-table [dataSource]="dataSource">
 
     <ng-container matColumnDef="teamName">
